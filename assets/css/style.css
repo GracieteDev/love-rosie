@@ -30,27 +30,7 @@
     background-color: #525252;
 }
 
-/*--------------------------------------------Special paddings/ margins/ text*/
-
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-
-}
-
-/*------------------------Special padding/ margins/ text*/
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -71,7 +51,6 @@ h4 {
 
 .inline-block {
     display: inline-block;
-
 }
 
 .row-table {
@@ -137,19 +116,13 @@ header {
     font-size: 0;
 }
 
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
 #nav {
     margin: 0;
-}
-
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
 }
 
 .menuitem {
@@ -174,7 +147,7 @@ header {
 
 .menuitem span {
     display: block;
-    width: 1005;
+    width: 100%;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
@@ -190,14 +163,7 @@ header {
     height: 120px;
 }
 
-/*--------------------------------------------Hover.css */
-
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
-}
-
-/*--------------------------------------------Footer */
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -219,6 +185,10 @@ footer {
 
 .cv-pdf i:hover {
     color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
 }
 
 .social-links li a i {
@@ -245,19 +215,18 @@ footer {
     padding: 20px;
 }
 
-/*--------------------------------------------Three reasons*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
-
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
 }
 
-/*--------------------------------------------Personal Info*/
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -284,7 +253,7 @@ footer {
 }
 
 .personal-info-item .key p {
-    font-size: 700;
+    font-weight: 700;
 }
 
 .personal-info-item .value {
